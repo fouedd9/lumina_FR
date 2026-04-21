@@ -926,7 +926,7 @@ export default function App() {
           Commander via WhatsApp
         </a>
         <p className="mt-6 text-xs" style={{ color: "#3d3228" }}>
-          &copy; 2025 Lumina FR — Tunisie
+          &copy; 2026 Lumina FR — Tunisie
         </p>
       </footer>
     </div>
