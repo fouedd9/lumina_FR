@@ -925,9 +925,14 @@ export default function App() {
           <WhatsAppIcon size={16} />
           Commander via WhatsApp
         </a>
-        <p className="mt-6 text-xs" style={{ color: "#3d3228" }}>
-          &copy; 2026 Lumina FR — Tunisie
-        </p>
+        <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
+          <p className="mt-6 text-xs" style={{ color: "#3d3228" }}>
+            &copy; 2026 Lumina FR — Tunisie
+          </p>
+          <p className="mt-0 text-xs" style={{ color: "#3d3228" }}>
+            made with ♥️ by Foued SAIDANE
+          </p>
+        </div>
       </footer>
     </div>
   );
