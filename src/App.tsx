@@ -129,7 +129,7 @@ export default function App() {
             Lumina <span style={{ color: "#f5ede0" }}>FR</span>
           </span>
         </div>
-        <a
+        {/* <a
           href={WHATSAPP_URL}
           target="_blank"
           rel="noopener noreferrer"
@@ -138,7 +138,7 @@ export default function App() {
         >
           <WhatsAppIcon size={16} />
           Commander
-        </a>
+        </a> */}
       </nav>
 
       {/* Hero Section */}
