@@ -428,7 +428,7 @@ export default function App() {
           </div>
         </FadeIn>
 
-        <div className="grid md:grid-cols-2 gap-8 max-w-3xl mx-auto">
+        <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
           {/* Single */}
           <FadeIn delay={100}>
             <div
@@ -461,9 +461,9 @@ export default function App() {
               <ul className="space-y-3 mb-8 flex-1">
                 {[
                   "1 lampe dorée premium",
-                  "Câble de recharge inclus",
-                  "Livraison partout en Tunisie",
-                  "Garantie qualité",
+                  "1 Câble de recharge inclus",
+                  "  Livraison partout en Tunisie",
+                  "  Garantie qualité",
                 ].map((item, i) => (
                   <li
                     key={i}
@@ -558,6 +558,70 @@ export default function App() {
               >
                 <WhatsAppIcon size={18} />
                 Commander — 100 DT
+              </a>
+            </div>
+          </FadeIn>
+          {/* en gros */}
+          <FadeIn delay={100}>
+            <div
+              className="rounded-2xl p-8 flex flex-col transition-all duration-300 hover:scale-[1.02]"
+              style={{
+                background: "rgba(255,255,255,0.04)",
+                border: "1px solid rgba(212,160,23,0.2)",
+              }}
+            >
+              <div
+                className="text-lg font-semibold mb-2"
+                style={{ color: "#c9b99a" }}
+              >
+                10 Lampes Lumina FR
+              </div>
+              <div className="flex items-end gap-2 mb-1">
+                <span
+                  className="text-5xl font-bold"
+                  style={{ color: "#D4A017" }}
+                >
+                  400
+                </span>
+                <span
+                  className="text-2xl font-bold pb-1"
+                  style={{ color: "#D4A017" }}
+                >
+                  DT
+                </span>
+              </div>
+              {/* here  */}
+              <div className="text-sm mb-6" style={{ color: "#9a8a72" }}>
+                au lieu de 118 DT — économisez 18 DT
+              </div>
+              <ul className="space-y-3 mb-8 flex-1">
+                {[
+                  "10 lampe dorée premium",
+                  "10 Câble de recharge inclus",
+                  "  Livraison partout en Tunisie",
+                  "  Garantie qualité",
+                  "  Satisfait ou remboursé ",
+                  "  Livraison gratuite ",
+                ].map((item, i) => (
+                  <li
+                    key={i}
+                    className="flex items-center gap-3 text-sm"
+                    style={{ color: "#c9b99a" }}
+                  >
+                    <Check size={16} style={{ color: "#D4A017" }} />
+                    {item}
+                  </li>
+                ))}
+              </ul>
+              <a
+                href={WHATSAPP_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center gap-2 py-3 rounded-full font-semibold transition-all duration-300 hover:scale-105"
+                style={{ background: "#25D366", color: "#fff" }}
+              >
+                <WhatsAppIcon size={18} />
+                Commander — 400 DT
               </a>
             </div>
           </FadeIn>
@@ -822,7 +886,7 @@ export default function App() {
             }}
           >
             <WhatsAppIcon size={24} />
-            Commander — 59 DT / 100 DT
+            Commander via whatsapp
           </a>
           <p className="mt-6 text-sm" style={{ color: "#6b5e4e" }}>
             Commande 100% via WhatsApp — Simple, rapide, sécurisé

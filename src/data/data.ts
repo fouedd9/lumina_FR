@@ -1,4 +1,4 @@
-import { Battery, Coffee, Gift, Home, Phone, Wifi, Zap } from "lucide-react";
+import { BatteryFull, Coffee, Gift, Home, Lightbulb, Wifi, Zap } from "lucide-react";
 
 export const reviews = [
     { name: 'Sonia B.', city: 'Monastir', text: 'Absolument magnifique ! Elle illumine mon salon avec une chaleur incomparable. Je vais en commander une deuxième.', stars: 5 },
@@ -32,9 +32,9 @@ export const useCases = [
 
 export const features = [
     {
-        icon: Battery,
+        icon: BatteryFull,
         label: "Batterie longue durée",
-        desc: "Jusqu'à 8h d'autonomie sur une seule charge",
+        desc: "Jusqu'à 6h d'autonomie sur une seule charge",
     },
     {
         icon: Wifi,
@@ -43,7 +43,7 @@ export const features = [
     },
     { icon: Zap, label: "Recharge USB-C", desc: "Charge rapide et universelle" },
     {
-        icon: Phone,
+        icon: Lightbulb,
         label: "3 modes d'éclairage",
         desc: "Chaud, neutre ou intensité variable",
     },
