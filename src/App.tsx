@@ -592,7 +592,7 @@ export default function App() {
               </div>
               {/* here  */}
               <div className="text-sm mb-6" style={{ color: "#9a8a72" }}>
-                au lieu de 118 DT — économisez 18 DT
+                au lieu de 590 DT — économisez 190 DT
               </div>
               <ul className="space-y-3 mb-8 flex-1">
                 {[
