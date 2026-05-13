@@ -93,7 +93,6 @@ export default function App() {
     >
       {/* Floating WhatsApp Button */}
       <a
-        id="whatsapp-order-button"
         href={WHATSAPP_URL}
         target="_blank"
         rel="noopener noreferrer"
@@ -188,7 +187,6 @@ export default function App() {
             </p>
             <div className="flex flex-wrap gap-4 mb-10">
               <a
-                id="whatsapp-order-button"
                 href={WHATSAPP_URL}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -478,7 +476,6 @@ export default function App() {
                 ))}
               </ul>
               <a
-                id="whatsapp-order-button"
                 href={WHATSAPP_URL}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -748,7 +745,6 @@ export default function App() {
                 </div>
               </div>
               <a
-                id="whatsapp-order-button"
                 href={WHATSAPP_URL}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -879,7 +875,6 @@ export default function App() {
             Commandez maintenant et recevez votre Lumina FR en express.
           </p>
           <a
-            id="whatsapp-order-button"
             href={WHATSAPP_URL}
             target="_blank"
             rel="noopener noreferrer"
@@ -921,7 +916,6 @@ export default function App() {
           La lampe sans fil rechargeable qui sublime chaque espace
         </p>
         <a
-          id="whatsapp-order-button"
           href={WHATSAPP_URL}
           target="_blank"
           rel="noopener noreferrer"
